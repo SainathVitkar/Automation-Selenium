@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <parameter name="browser" value="gecko"/>
+    <classes>
+      <class name="TestNG.Drag_Drop">
+        <methods>
+          <include name="get_screenshot"/>
+          <include name="ABCD"/>
+          <include name="KKK"/>
+          <include name="OpenBrowser"/>
+          <include name="geturl"/>
+          <include name="close_browser"/>
+          <include name="dbconnectionclosed"/>
+          <include name="get_cookies"/>
+          <include name="ZMY"/>
+          <include name="delet_cookies"/>
+          <include name="maximize_browser"/>
+        </methods>
+      </class> <!-- TestNG.Drag_Drop -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
